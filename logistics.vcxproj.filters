@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ALists">
+      <UniqueIdentifier>{f4dcf300-d702-4a51-a70b-660a201be647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InheritanceBasedLists">
+      <UniqueIdentifier>{865b959f-5aea-414a-a1a6-0485d5348db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{c44fd654-1d1b-40ff-ac8f-74c327b4190a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TemplatesBasedLists">
+      <UniqueIdentifier>{8c05875a-70b5-4aed-b6a1-a7b9d0cc5f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InheritanceBasedLists">
+      <UniqueIdentifier>{fc8319ec-0613-40e0-bee0-cb0cbc8bc531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TemplatesBasedLists">
+      <UniqueIdentifier>{be34f357-8152-4be8-b0a3-9abea515ced1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Transport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Truck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TruckSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneList.cpp">
+      <Filter>Source Files\InheritanceBasedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="TransportList.cpp">
+      <Filter>Source Files\InheritanceBasedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="TruckList.cpp">
+      <Filter>Source Files\InheritanceBasedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneTList.cpp">
+      <Filter>Source Files\TemplatesBasedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="TruckTList.cpp">
+      <Filter>Source Files\TemplatesBasedLists</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Transport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Truck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TruckSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="APlaneList.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="ATruckList.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="AList.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="TruckList.h">
+      <Filter>Header Files\InheritanceBasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneList.h">
+      <Filter>Header Files\InheritanceBasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="TransportList.h">
+      <Filter>Header Files\InheritanceBasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneTList.h">
+      <Filter>Header Files\TemplatesBasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="TruckTList.h">
+      <Filter>Header Files\TemplatesBasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpersT.h">
+      <Filter>Header Files\TemplatesBasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\TemplatesBasedLists</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="trucks.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="planes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+truck1 route1 12
+truck2 route2 13
+truck3 route3 14
+truck1 route1 23
+t r 2
+tr route 2
+t t 3

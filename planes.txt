@@ -1,0 +1,5 @@
+plane1 23 12
+plane2 12 34
+plane3 9 90
+plane3 9 90
+p 23 1
